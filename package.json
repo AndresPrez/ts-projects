@@ -9,7 +9,7 @@
     "init": "./dist/index.js"
   },
   "bin": {
-    "typescript-template": "./dist/index.js"
+    "ts-projects-init": "./dist/index.js"
   },
   "author": "",
   "license": "ISC",
