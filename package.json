@@ -1,0 +1,34 @@
+{
+  "name": "ts-projects",
+  "version": "1.0.0",
+  "description": "TypesScript Projects Template Generator",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "init": "./dist/index.js"
+  },
+  "bin": {
+    "typescript-template": "./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/download": "^8.0.1",
+    "@types/ejs": "^3.0.7",
+    "@types/inquirer": "^7.3.3",
+    "@types/node": "^16.4.12",
+    "@types/rimraf": "^3.0.1",
+    "nodemon": "^2.0.12",
+    "shx": "^0.3.3",
+    "ts-node": "^10.1.0",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "download": "^8.0.0",
+    "ejs": "^3.1.6",
+    "inquirer": "^8.1.2",
+    "rimraf": "^3.0.2"
+  }
+}
