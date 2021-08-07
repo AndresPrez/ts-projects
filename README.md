@@ -20,6 +20,6 @@ First install the ts-projects globally npm package with `npm`
 
 `$> npm install -g ts-projects`
 
-Then run the `typescript-template` and you're done.
+Then run the `ts-projects-init` and you're done.
 
-`$> typescript-template`
+`$> ts-projects-init`
